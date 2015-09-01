@@ -14,6 +14,7 @@
 		4078145D1B95C97500C71521 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4078145C1B95C97500C71521 /* Images.xcassets */; };
 		407814601B95C97500C71521 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4078145E1B95C97500C71521 /* LaunchScreen.xib */; };
 		4078146C1B95C97500C71521 /* TextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4078146B1B95C97500C71521 /* TextTests.m */; };
+		407814771B95D2F900C71521 /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 407814761B95D2F900C71521 /* MyTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		407814651B95C97500C71521 /* TextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4078146A1B95C97500C71521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4078146B1B95C97500C71521 /* TextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextTests.m; sourceTree = "<group>"; };
+		407814751B95D2F900C71521 /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
+		407814761B95D2F900C71521 /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				407814541B95C97500C71521 /* AppDelegate.m */,
 				407814561B95C97500C71521 /* ViewController.h */,
 				407814571B95C97500C71521 /* ViewController.m */,
+				407814751B95D2F900C71521 /* MyTextView.h */,
+				407814761B95D2F900C71521 /* MyTextView.m */,
 				407814591B95C97500C71521 /* Main.storyboard */,
 				4078145C1B95C97500C71521 /* Images.xcassets */,
 				4078145E1B95C97500C71521 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				407814581B95C97500C71521 /* ViewController.m in Sources */,
+				407814771B95D2F900C71521 /* MyTextView.m in Sources */,
 				407814551B95C97500C71521 /* AppDelegate.m in Sources */,
 				407814521B95C97500C71521 /* main.m in Sources */,
 			);
